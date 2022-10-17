@@ -13,7 +13,7 @@ This light-weight Echolocation Audio Spectrogram Transformer is as far as we kno
 ## Data
 The cleanest version of the data, after removing corrupted samples, exists in the [spectrogram_images_V3a](spectrogram_images_V3a/) folder
 
-## Source Code
+## Code
 The [SSAST](https://github.com/YuanGongND/ssast)'s source code exists in the [src](src/) folder including the SSAST's class and function definitions.
 
 The new model's class is defined inside the jupyter notebooks in the root folder, while the [pretrained_model](pretrained_model/) folder contains pretrained weights for both the original SSAST and our model.
