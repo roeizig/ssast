@@ -10,3 +10,12 @@ Using a small data set of 1900 samples, we were able to train the novel model an
 
 This light-weight Echolocation Audio Spectrogram Transformer is as far as we know the first of its kind, solving the task of bat Doppler shift compensation using deep learning methods and specifically transformers.
 
+## Data
+The cleanest version of the data, after removing corrupted samples, exists in the [spectrogram_images_V3a](spectrogram_images_V3a/) folder
+
+## Source Code
+The [SSAST](https://github.com/YuanGongND/ssast)'s source code exists in the [src](src/) folder including the SSAST's class and function definitions.
+
+The new model's class is defined inside the jupyter notebooks in the root folder, while the [pretrained_model](pretrained_model/) folder contains pretrained weights for both the original SSAST and our model.
+
+The notebooks also contain the creation of the dataset class from the images folders, the use of various visualization techniques for machine learning explainability, and an analysis of the model's performance over our test set.
